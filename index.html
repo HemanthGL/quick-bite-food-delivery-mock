@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Bites</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Gabarito', cursive;
+        font-family: 'Poppins', sans-serif; -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                QUICK BITE
+            </div>
+            <div class="other-nav">
+                <div class="sign-in">
+                    <button type="button" class="btn button-w">Sign in</button>
+                </div>
+                <div class="sign-up">
+                    <button type="button" class = 'btn btn-b'>Sign up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="left-img">
+            <img src="./images/Assgn3Img1.PNG" alt="" srcset="" width="100vw">
+        </div>
+        <div class="search">
+            The quickest way to find the perfect bite
+            <!-- search bar TODO -->
+            <div class="search-comp flex-col">
+                <div class="search-field rounded">
+                    <div class="search-entry flex-row">
+                        <div class="placeholder">
+                            Delivery address
+                        </div>
+                        <div class="search-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+    </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-btn">
+                    <button type="button" class = 'rounded'>Search</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="right-img">
+            <img src="./images/Assgn3Img2.PNG" alt="" srcset="" width="100vw">
+        </div>
+    </section>
+    
+    <main>
+        <!-- use accordion for here -->
+            <!-- three sections here -->
+        <div class="accordion accordion-flush" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header " id="headingOne">
+                    <button type="button" class="accordion-button"  data-bs-toggle="collapse"  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How it works</button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" >
+                    <div class="accordion-body flex-row">
+                        <div class="ac1-step-1 flex-col">
+                            <div class="card-img">
+                                <img src="./images/Assgn3Img3.PNG" alt="" srcset="">
+                            </div>
+                            <div class="card-capt">
+                                <div class="card-capt-header">Step 1</div>
+                                <div class="card-capt-body">
+                                    Enter your location. Type in your address, or pin your location by enabling location services.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="ac1-step-2 flex-col">
+                            <div class="card-img">
+                                <img src="./images/Assgn3Img4.PNG" alt="" srcset="" >
+                            </div>
+                            <div class="card-capt">
+                                <div class="card-capt-header">Step 2</div>
+                                <div class="card-capt-body">
+                                    Now select a restaurant and a menu item. You're one step closer to the perfect quick bite.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ac1-step-3 flex-col">
+                            <div class="card-img">
+                                <img src="./images/Assgn3Img5.PNG" alt="" srcset="">
+                            </div>
+                            <div class="card-capt">
+                                <div class="card-capt-header">Step 3</div>
+                                <div class="card-capt-body">
+                                    Settle your payment. Then, set back and relax as we make your food ready!
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTWO">
+                    <button type="button" class="accordion-button"  data-bs-toggle="collapse"  data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">Work with QuickBite</button>
+                </h2>
+                <div id="collapseTwo" class=" collapse show " aria-labelledby="headingTwo" >
+                    <div class="ac2-r1">
+                        <div class="ac2 accordion-body flex-row ">
+                            <div class="ac2-left">
+                                <img src="./images/Assgn3Img6.PNG" alt="" srcset="" >
+                            </div>
+                            <div class="ac2-right flex-col">
+                                <div class="ac2-right-header">
+                                    As a rider
+                                </div>
+                                <div class="ac2-right-capt">
+                                    Earn money by delivering food from restaurants. All you need are the skills and a bike.
+                                </div>
+                                <div class="ac2-right-btn">
+                                    <button type="button" class="test-btn btn" style="border: 1px solid rgba(25, 32, 75, 255);">Ride with us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                     <div class="ac2-r1">
+                        <div class="ac2 accordion-body flex-row ">
+                            <div class="ac2-left">
+                                <img src="./images/Assgn3Img7.PNG" alt="" srcset="" >
+                            </div>
+                            <div class="ac2-right flex-col">
+                                <div class="ac2-right-header">
+                                    As a partner
+                                </div>
+                                <div class="ac2-right-capt">
+                                    QuickBite helps restaurants grow with online ordering, loyalty programs, and more.
+                                </div>
+                                <div class="ac2-right-btn">
+                                    <button type="button" class="test-btn btn" style="border: 1px solid rgba(25, 32, 75, 255);">Partner with us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                     <div class="ac2-r1">
+                        <div class="ac2 accordion-body flex-row ">
+                            <div class="ac2-left">
+                                <img src="./images/Assgn3Img8.PNG" alt="" srcset="" >
+                            </div>
+                            <div class="ac2-right flex-col">
+                                <div class="ac2-right-header">
+                                    As a colleague
+                                </div>
+                                <div class="ac2-right-capt">
+                                    Be part of a team that's building a top-notch delivery service.
+                                </div>
+                                <div class="ac2-right-btn">
+                                    <button type="button" class="test-btn btn" style="border: 1px solid rgba(25, 32, 75, 255);">Work with us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button type="button" class="accordion-button"  data-bs-toggle="collapse"  data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">Download our app</button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                    <div class="accordion-body">
+                        <div class="ac2-r1">
+                        <div class="ac3 ac2 accordion-body flex-row ">
+                            <div class="ac2-right flex-col">
+                                <div class="ac2-right-header">
+                                    Order easily!
+                                </div>
+                                <div class="ac2-right-capt">
+                                    Get the most delicious bites delivered to your door with QuickBite. Our fastest delivery service carries a variety of cuisines from local restaurants.
+                                </div>
+                                <div class="ac2-right-btn">
+                                    <button type="button" class="test-btn-2 btn" style="border: 1px solid rgba(25, 32, 75, 255);">Download</button>
+                                </div>
+                            </div>
+                            <div class="ac3-left">
+                                <img src="./images/Assgn3Img9.PNG" alt="" srcset="" >
+                            </div>
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- see Bootstrap for footer o' here -->
+        <!-- testing here -->
+
+        <section class="">
+            <div class="foot-cont container text-center text-md-start mt-5 ">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold">QUICK BITE</h6>
+                    <hr
+                        class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px"
+                        />
+                    <!-- <p>
+                    Here you can use rows and columns to organize your footer
+                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                    </p> -->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class=" fw-bold">Social</h6>
+                    <!-- <hr
+                        class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px"
+                        /> -->
+                    <p>
+                    Facebook
+                    </p>
+                    <p>
+                    Instagram
+                    </p>
+                    <p>
+                    LinkedIn
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <!-- <h6 class="text-uppercase fw-bold">Get help</h6> -->
+                    <!-- <hr
+                        class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px"
+                        /> -->
+                        <p><i class="fas fa-print mr-3"></i> Get help</p>
+                        <p><i class="fas fa-home mr-3"></i>Partner with us</p>
+                        <p><i class="fas fa-envelope mr-3"></i> Add your restaurant</p>
+                        <p><i class="fas fa-phone mr-3"></i> Signup to deliver</p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <!-- <h6 class="text-uppercase fw-bold">Read our blo</h6> -->
+                        <!-- <hr
+                            class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px"
+                            /> -->
+                        <p>
+                            Read our blog
+                        </p>
+                        <p>
+                            Buy gift card
+                        </p>
+                        <p>
+                            Restaurants nearby
+                        </p>
+                        <p>
+                        Save on first order
+                        </p>
+                    </div>
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

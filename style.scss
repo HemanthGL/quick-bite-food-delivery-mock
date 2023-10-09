@@ -1,0 +1,13 @@
+$bgGreenColor : rgba(207,218,205,255);
+$bgWhiteHue : rgba(237,240,235,255);
+$bgBlueHue : rgba(237,240,235,255);
+
+html, body{
+    font-family: 'Gabarito', cursive;
+    // font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}

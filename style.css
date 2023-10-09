@@ -1,0 +1,206 @@
+/* $bgGreenColor : rgba(207,218,205,255);
+$bgWhiteHue : rgba(237,240,235,255);
+$bgBlueHue : rgba(25,32,75,255); */
+
+html, body{
+    font-family: 'Gabarito', cursive;
+    /* // font-family: 'Poppins', sans-serif; */
+}
+
+nav, .other-nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav, section, main{
+    margin: 4vh 6vw;
+    font-family: 'Gabarito', cursive;
+}
+section{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.card-capt-header, .accordion-button, .ac2-right-header{
+    font-weight: bold !important;
+    font-size: large !important;
+    color: rgba(25,32,75,255);
+}
+
+body{
+    background-color: rgba(237, 240, 235, 255)!important;
+}
+
+.btn-b{
+    background-color: rgba(25,32,75,255)!important;
+    color: rgba(237,240,235,255)!important;
+    margin: 0px 0px!important;
+    margin-top: 2vh;
+    /* margin-left: 8vw; */
+}
+
+.sign-up{
+    margin-left: 2vw;
+}
+.button-w{
+    background-color: rgba(237,240,235,255)!important;
+    color: rgba(25,32,75,255)!important;
+    border: 1px solid rgba(25,32,75,255)!important;
+    margin: 0px 0px!important;
+}
+.logo{
+    font-family: 'Gabarito', cursive;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.accordion, .accordion-item, .accordion-header,.accordion-button{
+    background-color: rgba(237,240,235,255) !important;
+    border: 10px 0px solid brown!important;
+}
+
+.flex-row{
+    display: flex;
+
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.card-img{
+    display: flex;
+    justify-content: center
+}
+.card-capt{
+    padding: 2vh 5vw;
+}
+.card-img img{
+    max-width: 18vw;
+}
+.ac1-step-2 img{
+    max-width: 14vw;
+}
+.ac1-step-3 img{
+    max-width: 20vw;
+}
+.ac2-left img{
+    max-width: 50vw;
+}
+
+.ac2-right-header{
+    font-weight: bold;
+    margin-top: 4vh!important;
+}
+
+.ac2-right-capt{
+    color: rgba(25,32,75,255);
+}
+
+.ac2{
+    gap: 6vw!important;
+}
+.ac2-right{
+    gap: 5vh!important;
+    min-height: 100%;
+    display: flex;
+    align-content: space-evenly;
+    font-size: larger!important;
+   
+}
+.test-btn{
+    padding: 1vh 2vw!important;
+}
+.ac3-left img{
+    max-width: 42vw;
+}
+.test-btn-2{
+    background-color: rgba(25,32,75,255)!important;
+    color: rgba(237,240,235,255)!important;
+}
+
+footer{
+    background-color: rgba(207,218,205,255);
+}
+footer p{
+    font-size: small;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.foot-cont{
+    margin-top: 200vh !important;
+}
+.search-field, .placeholder, .search-icon{
+    background-color: whitesmoke!important;
+}
+.search-field{
+    padding: 2vh;
+    font-size: small;
+    min-width: 70%;
+    /* max-width: 70%; */
+}
+.search-entry{
+    justify-content: space-between;
+}
+.search-comp{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search-btn, .search-btn button{
+    /* max-width: 2vw; */
+}
+.search-btn button{
+    background-color: rgba(25,32,75,255);
+    color: rgba(237,240,235,255);
+    padding: 2vh 2vw;
+    font-size: small;
+
+}
+@media screen and (max-width:720px){
+    .card-capt, .ac2-right{
+        font-size: small!important;
+    }
+    .ac2-right-header{
+        margin-top: 0px!important;
+    }
+    .search{
+        font-size: medium;
+    }
+    .foot-cont{
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width:480px){
+    section{
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+    .ac3 div{
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .ac3-left{
+        display: flex;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+    .ac3-left img{
+        max-width: 72vw;
+    }
+}
+/* .ac-step-1, .ac-step-2, .ac-step-3{
+    /* max-width: ;width: 30%; */
+/* } */ */
+
+/* main,  */
+
+
+/* nav ka display none
+how it works ka flex-col or wrap do
+    work with ka font size change or flexcol */

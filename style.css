@@ -61,7 +61,7 @@ section{
     border: 10px 0px solid brown!important;
 }
 
-.flex-row{
+.flex-row, .flex-row1 {
     display: flex;
 
 }
@@ -192,6 +192,16 @@ footer p{
     }
     .ac3-left img{
         max-width: 72vw;
+    }
+    
+    .ac1, .flex-row1, .ac2 {
+        flex-direction: column !important;
+    }
+    .ac2-left{
+        text-align: center;
+    }
+    .card-img img{
+        width: 3000px;
     }
 }
 /* .ac-step-1, .ac-step-2, .ac-step-3{
